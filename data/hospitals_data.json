@@ -1,0 +1,4517 @@
+{
+    "items": [
+        {
+            "title": "Ga-South District Hospital",
+            "id": "here:pds:place:288jx7ps-0c08f2dc42c00d3af3c4807f91ea843a",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Ga-South District Hospital, Ga South, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga South",
+                "district": "Gbawe"
+            },
+            "position": {
+                "lat": 5.56537,
+                "lng": -0.2895
+            },
+            "access": [
+                {
+                    "lat": 5.56556,
+                    "lng": -0.29058
+                }
+            ],
+            "distance": 2300,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142178479"
+                }
+            ]
+        },
+        {
+            "title": "Advanced Bodysculpt Centre",
+            "id": "here:pds:place:288ebzz9-c14bc5ed839137df64f64259bfdf1330",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Advanced Bodysculpt Centre, Winneba Road, Ga South, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga South",
+                "district": "Gbawe",
+                "street": "Winneba Road"
+            },
+            "position": {
+                "lat": 5.56509,
+                "lng": -0.28923
+            },
+            "access": [
+                {
+                    "lat": 5.56489,
+                    "lng": -0.28922
+                }
+            ],
+            "distance": 2310,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1227802542"
+                }
+            ],
+            "contacts": [
+                {
+                    "mobile": [
+                        {
+                            "value": "+233237077777"
+                        },
+                        {
+                            "value": "+233261830030"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "https://www.advancedbodysculpt.com"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "dkobengfo@gmail.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Hospital",
+            "id": "here:pds:place:288jx7ps-90feda96af700bd2347687746473c2c0",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Hospital, Winneba Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Winneba Road"
+            },
+            "position": {
+                "lat": 5.57311,
+                "lng": -0.27946
+            },
+            "access": [
+                {
+                    "lat": 5.57325,
+                    "lng": -0.27954
+                }
+            ],
+            "distance": 3702,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136367558"
+                }
+            ]
+        },
+        {
+            "title": "Hospital",
+            "id": "here:pds:place:288jx7ps-05f6d68a1748019c30a2ae8f41e6a464",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Hospital, Kwame Nkrumah Motorway, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Kwame Nkrumah Motorway"
+            },
+            "position": {
+                "lat": 5.57777,
+                "lng": -0.2791
+            },
+            "access": [
+                {
+                    "lat": 5.57805,
+                    "lng": -0.27941
+                }
+            ],
+            "distance": 4046,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136369408"
+                }
+            ]
+        },
+        {
+            "title": "Hospital",
+            "id": "here:pds:place:288jx7ps-a912d38601ca04a392812c2b5356ea15",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Hospital, Kwame Nkrumah Motorway, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Kwame Nkrumah Motorway"
+            },
+            "position": {
+                "lat": 5.57888,
+                "lng": -0.27829
+            },
+            "access": [
+                {
+                    "lat": 5.57899,
+                    "lng": -0.27842
+                }
+            ],
+            "distance": 4195,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136367545"
+                }
+            ]
+        },
+        {
+            "title": "Atua Government Hospital",
+            "id": "here:pds:place:288ebzzb-e37e3b60b75b96e9b3e4ae955f406aa4",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Atua Government Hospital, Ga South, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga South",
+                "district": "Gbawe"
+            },
+            "position": {
+                "lat": 5.59134,
+                "lng": -0.31982
+            },
+            "access": [
+                {
+                    "lat": 5.59131,
+                    "lng": -0.3199
+                }
+            ],
+            "distance": 4344,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1230647806"
+                }
+            ],
+            "contacts": [
+                {
+                    "mobile": [
+                        {
+                            "value": "+233244042990"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Vicon Specialist Hospital Mat Home",
+            "id": "here:pds:place:288jx7ps-e08767cff4bf06e335268696970004dc",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Vicon Specialist Hospital Mat Home, Sahara Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Sahara Street"
+            },
+            "position": {
+                "lat": 5.55163,
+                "lng": -0.26672
+            },
+            "access": [
+                {
+                    "lat": 5.55178,
+                    "lng": -0.26673
+                }
+            ],
+            "distance": 4481,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142185583"
+                }
+            ]
+        },
+        {
+            "title": "Amoah Memorial Hospital",
+            "id": "here:pds:place:288jx7ps-d0f0beb40184004f80e2c3f4e3648aa0",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Amoah Memorial Hospital, Ga Central, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga Central",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.59072,
+                "lng": -0.28729
+            },
+            "access": [
+                {
+                    "lat": 5.59045,
+                    "lng": -0.28731
+                }
+            ],
+            "distance": 4598,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142198660"
+                }
+            ]
+        },
+        {
+            "title": "Hospital",
+            "id": "here:pds:place:288jx7ps-669a50359e9508434b38b88a3ab5c702",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Hospital, Busia Link, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Busia Link"
+            },
+            "position": {
+                "lat": 5.57298,
+                "lng": -0.26582
+            },
+            "access": [
+                {
+                    "lat": 5.57313,
+                    "lng": -0.26588
+                }
+            ],
+            "distance": 5016,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136369579"
+                }
+            ]
+        },
+        {
+            "title": "Finney Hospital",
+            "id": "here:pds:place:288jx7ps-1524d30816ad07effc12e341fe51c27e",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Finney Hospital, Ga South, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga South",
+                "district": "Gbawe"
+            },
+            "position": {
+                "lat": 5.54993,
+                "lng": -0.35584
+            },
+            "access": [
+                {
+                    "lat": 5.55065,
+                    "lng": -0.35561
+                }
+            ],
+            "distance": 5416,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142182237"
+                }
+            ]
+        },
+        {
+            "title": "Karikari Brobbey Hospital",
+            "id": "here:pds:place:288jx7ps-0e35798104e5074b7fe37e2bba102db1",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Karikari Brobbey Hospital, Gbegbe Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Gbegbe Street"
+            },
+            "position": {
+                "lat": 5.53112,
+                "lng": -0.26168
+            },
+            "access": [
+                {
+                    "lat": 5.53097,
+                    "lng": -0.26148
+                }
+            ],
+            "distance": 5654,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142179245"
+                }
+            ]
+        },
+        {
+            "title": "Rocky Hospital. Odorkor.",
+            "id": "here:pds:place:288jx7ps-2818e2ffa8fc0640b335048d0d0e61cc",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Rocky Hospital. Odorkor., Nii Akoto Armah Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Nii Akoto Armah Street"
+            },
+            "position": {
+                "lat": 5.58514,
+                "lng": -0.26258
+            },
+            "access": [
+                {
+                    "lat": 5.58528,
+                    "lng": -0.2625
+                }
+            ],
+            "distance": 5999,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142206839"
+                }
+            ]
+        },
+        {
+            "title": "The Rock Hospital",
+            "id": "here:pds:place:288jx7ps-0c75dd2cc80304fccc644f5dab97e2d6",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "The Rock Hospital, Nii Akoto Armah Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Nii Akoto Armah Street"
+            },
+            "position": {
+                "lat": 5.58517,
+                "lng": -0.26245
+            },
+            "access": [
+                {
+                    "lat": 5.58522,
+                    "lng": -0.26239
+                }
+            ],
+            "distance": 6013,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142206492"
+                }
+            ]
+        },
+        {
+            "title": "Deseret Hospital",
+            "id": "here:pds:place:288jx7ps-d305010110190363d8ec2147fe8f5f87",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Deseret Hospital, Nothern Desert Road, Ga Central, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga Central",
+                "street": "Nothern Desert Road"
+            },
+            "position": {
+                "lat": 5.60811,
+                "lng": -0.27864
+            },
+            "access": [
+                {
+                    "lat": 5.60824,
+                    "lng": -0.27878
+                }
+            ],
+            "distance": 6754,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142178837"
+                }
+            ]
+        },
+        {
+            "title": "Link Road Hospital",
+            "id": "here:pds:place:288jx7ps-32dc6620a518071486918272d550a41f",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Link Road Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.54937,
+                "lng": -0.24107
+            },
+            "access": [
+                {
+                    "lat": 5.54937,
+                    "lng": -0.24092
+                }
+            ],
+            "distance": 7330,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142201484"
+                }
+            ]
+        },
+        {
+            "title": "Mab International Hospital",
+            "id": "here:pds:place:288ebzzf-7758d94493f67d19a953470462e5787c",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Mab International Hospital, Nii Kpakpa Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Nii Kpakpa Street"
+            },
+            "position": {
+                "lat": 5.60148,
+                "lng": -0.25674
+            },
+            "access": [
+                {
+                    "lat": 5.60111,
+                    "lng": -0.25648
+                }
+            ],
+            "distance": 7649,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1230647801"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302959539"
+                        }
+                    ],
+                    "mobile": [
+                        {
+                            "value": "+233209494300"
+                        },
+                        {
+                            "value": "+233549989242"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "http://www.mabhospitals.org"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "enquiries@mabhospitals.org"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Faith Evangelical Hospital",
+            "id": "here:pds:place:288jx7ps-efe03c0e875c0e70a30e05cabf41e5cf",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Faith Evangelical Hospital, Ntow Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Ntow Street"
+            },
+            "position": {
+                "lat": 5.57717,
+                "lng": -0.23693
+            },
+            "access": [
+                {
+                    "lat": 5.57725,
+                    "lng": -0.23708
+                }
+            ],
+            "distance": 8170,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142186742"
+                }
+            ]
+        },
+        {
+            "title": "Lapaz Community Hospital",
+            "id": "here:pds:place:288ebzzf-9dcd4f45e3414f55890a012a5bf55c95",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Lapaz Community Hospital, Jen Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Jen Street"
+            },
+            "position": {
+                "lat": 5.60883,
+                "lng": -0.25391
+            },
+            "access": [
+                {
+                    "lat": 5.6088,
+                    "lng": -0.25406
+                }
+            ],
+            "distance": 8445,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210562511"
+                }
+            ]
+        },
+        {
+            "title": "Family Health Hospital",
+            "id": "here:pds:place:288jx7ps-6764f6f0f23a0d4610bdee52d188c2bd",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Family Health Hospital, Zoti Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Zoti Road"
+            },
+            "position": {
+                "lat": 5.54527,
+                "lng": -0.22976
+            },
+            "access": [
+                {
+                    "lat": 5.54543,
+                    "lng": -0.22981
+                }
+            ],
+            "distance": 8620,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142177953"
+                }
+            ]
+        },
+        {
+            "title": "Biomedical Department",
+            "id": "here:pds:place:288jx7ps-fd83316b42e7032315615be799db34e6",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Biomedical Department, Alexander Avenue, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Alexander Avenue"
+            },
+            "position": {
+                "lat": 5.536,
+                "lng": -0.22945
+            },
+            "access": [
+                {
+                    "lat": 5.53602,
+                    "lng": -0.22931
+                }
+            ],
+            "distance": 8835,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142181235"
+                },
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210039843"
+                }
+            ]
+        },
+        {
+            "title": "Family Health Centre",
+            "id": "here:pds:place:288jx7ps-243fb425194a0f8bbf0f179bb9946e41",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Family Health Centre, Guggisberg Avenue, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Guggisberg Avenue"
+            },
+            "position": {
+                "lat": 5.53543,
+                "lng": -0.22938
+            },
+            "access": [
+                {
+                    "lat": 5.53559,
+                    "lng": -0.22942
+                }
+            ],
+            "distance": 8857,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142173427"
+                }
+            ]
+        },
+        {
+            "title": "Korle Bu Mortuary",
+            "id": "here:pds:place:288jx7ps-428bf21c5f9708d42a7c819ec8ace1c5",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Korle Bu Mortuary, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.54232,
+                "lng": -0.2271
+            },
+            "access": [
+                {
+                    "lat": 5.54243,
+                    "lng": -0.22722
+                }
+            ],
+            "distance": 8956,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142177632"
+                }
+            ]
+        },
+        {
+            "title": "Korle Bu Teaching Hospital",
+            "id": "here:pds:place:288ebzz6-c69bf704b9bf400692417f0a490130d3",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Korle Bu Teaching Hospital, Harley Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Harley Street"
+            },
+            "position": {
+                "lat": 5.5367,
+                "lng": -0.22639
+            },
+            "access": [
+                {
+                    "lat": 5.53692,
+                    "lng": -0.22644
+                }
+            ],
+            "distance": 9147,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210492847"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302739510"
+                        }
+                    ],
+                    "mobile": [
+                        {
+                            "value": "+233243407809"
+                        },
+                        {
+                            "value": "+233506210458"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "http://kbth.gov.gh"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "info@kbth.gov.gh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Korle Bu Teaching Hospital",
+            "id": "here:pds:place:288jx7ps-8dbee85de7810d56f9486c0262e0fd8d",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Korle Bu Teaching Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.53671,
+                "lng": -0.22636
+            },
+            "access": [
+                {
+                    "lat": 5.53885,
+                    "lng": -0.22642
+                }
+            ],
+            "distance": 9150,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1148772745"
+                }
+            ]
+        },
+        {
+            "title": "Eden Specialist Hospital",
+            "id": "here:pds:place:288jx7ps-ef272a1d6bad07f8ba38f5ee791b1f97",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Eden Specialist Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.58045,
+                "lng": -0.2282
+            },
+            "access": [
+                {
+                    "lat": 5.58025,
+                    "lng": -0.22803
+                }
+            ],
+            "distance": 9202,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142186566"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302224984"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Lapaz Community Hospital",
+            "id": "here:pds:place:288ebzzf-62159eaa58ca44e6bec40c61e73132dc",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Lapaz Community Hospital, Nii Alotey Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Nii Alotey Street"
+            },
+            "position": {
+                "lat": 5.6081,
+                "lng": -0.242
+            },
+            "access": [
+                {
+                    "lat": 5.60834,
+                    "lng": -0.24211
+                }
+            ],
+            "distance": 9360,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1211450270"
+                }
+            ],
+            "contacts": [
+                {
+                    "mobile": [
+                        {
+                            "value": "+233203023790"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "http://lapazcommunityhospital.org"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Emmanuel Community Hospital",
+            "id": "here:pds:place:288ebzzf-aa6df9cfda824af1bb5daa4fb81e4173",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Emmanuel Community Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.60686,
+                "lng": -0.23765
+            },
+            "access": [
+                {
+                    "lat": 5.60622,
+                    "lng": -0.2375
+                }
+            ],
+            "distance": 9651,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210615271"
+                }
+            ]
+        },
+        {
+            "title": "Hospital",
+            "id": "here:pds:place:288jx7ps-26574ed198170dae98e74701c34f1ab5",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Hospital, 1st Close, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "1st Close"
+            },
+            "position": {
+                "lat": 5.60683,
+                "lng": -0.23169
+            },
+            "access": [
+                {
+                    "lat": 5.60678,
+                    "lng": -0.23185
+                }
+            ],
+            "distance": 10182,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136370446"
+                }
+            ]
+        },
+        {
+            "title": "Atta Quarshie Morton Memorial Hospital",
+            "id": "here:pds:place:288jx7ps-d9103638e48202016ad3a3c6abdd7495",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Atta Quarshie Morton Memorial Hospital, Dr. Morton Loop, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Dr. Morton Loop"
+            },
+            "position": {
+                "lat": 5.56186,
+                "lng": -0.21412
+            },
+            "access": [
+                {
+                    "lat": 5.56182,
+                    "lng": -0.21427
+                }
+            ],
+            "distance": 10325,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142206263"
+                }
+            ]
+        },
+        {
+            "title": "Princess Marie-Louise Children's Hospital",
+            "id": "here:pds:place:288jx7ps-c772f85da1090fe685fba0904e4c92fd",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Princess Marie-Louise Children's Hospital, Amoonakwa Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Amoonakwa Road"
+            },
+            "position": {
+                "lat": 5.54494,
+                "lng": -0.2131
+            },
+            "access": [
+                {
+                    "lat": 5.54437,
+                    "lng": -0.21367
+                }
+            ],
+            "distance": 10457,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142202042"
+                }
+            ]
+        },
+        {
+            "title": "PML Hospital",
+            "id": "here:pds:place:288jx7ps-27304c5168b606cccf1f14335bb834ea",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "PML Hospital, Okaitei Nettey Avenue, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Okaitei Nettey Avenue"
+            },
+            "position": {
+                "lat": 5.54497,
+                "lng": -0.21306
+            },
+            "access": [
+                {
+                    "lat": 5.54422,
+                    "lng": -0.21296
+                }
+            ],
+            "distance": 10461,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142188042"
+                }
+            ]
+        },
+        {
+            "title": "Princess Marie Louise Hospital",
+            "id": "here:pds:place:288ebzze-204611d74de04e159ae72d087cfc9fc7",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Princess Marie Louise Hospital, Derby Avenue, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Derby Avenue"
+            },
+            "position": {
+                "lat": 5.54511,
+                "lng": -0.21299
+            },
+            "access": [
+                {
+                    "lat": 5.54514,
+                    "lng": -0.21304
+                }
+            ],
+            "distance": 10468,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210550771"
+                }
+            ]
+        },
+        {
+            "title": "Childrens Hospital",
+            "id": "here:pds:place:288jx7ps-232c776bf1330eaac9f6c20adaf0e818",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Childrens Hospital, Tackie Commey Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Tackie Commey Road"
+            },
+            "position": {
+                "lat": 5.54519,
+                "lng": -0.21277
+            },
+            "access": [
+                {
+                    "lat": 5.54463,
+                    "lng": -0.21269
+                }
+            ],
+            "distance": 10491,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142188592"
+                }
+            ]
+        },
+        {
+            "title": "Children Hospital Yard",
+            "id": "here:pds:place:288jx7ps-040c030df9b707bf1b3251bc760e947d",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Children Hospital Yard, Tackie Commey Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Tackie Commey Road"
+            },
+            "position": {
+                "lat": 5.54519,
+                "lng": -0.21277
+            },
+            "access": [
+                {
+                    "lat": 5.54496,
+                    "lng": -0.21274
+                }
+            ],
+            "distance": 10491,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142176319"
+                }
+            ]
+        },
+        {
+            "title": "Accra Psychiatric Hospital",
+            "id": "here:pds:place:288jx7ps-8ecc0781af86053a75139668ef15597e",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Accra Psychiatric Hospital, Castle Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Castle Road"
+            },
+            "position": {
+                "lat": 5.56327,
+                "lng": -0.2043
+            },
+            "access": [
+                {
+                    "lat": 5.56265,
+                    "lng": -0.2041
+                }
+            ],
+            "distance": 11421,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142205500"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302228688"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "https://accrapsychiatrichospital.org"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "info@accrapsychiatrichospital.org"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Anthon Memorial Hospital",
+            "id": "here:pds:place:288ebzzg-db4d7c7a963a4d27aadf2a993cce0e84",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Anthon Memorial Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.59379,
+                "lng": -0.21148
+            },
+            "access": [
+                {
+                    "lat": 5.59323,
+                    "lng": -0.21106
+                }
+            ],
+            "distance": 11455,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210621112"
+                }
+            ]
+        },
+        {
+            "title": "Sape Agbo Memorial Hospital",
+            "id": "here:pds:place:288jx7ps-500bc55810560db47a358daa7f3ad6e8",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Sape Agbo Memorial Hospital, Newtown Lane, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Newtown Lane"
+            },
+            "position": {
+                "lat": 5.59242,
+                "lng": -0.20821
+            },
+            "access": [
+                {
+                    "lat": 5.59241,
+                    "lng": -0.20808
+                }
+            ],
+            "distance": 11734,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136368033"
+                }
+            ]
+        },
+        {
+            "title": "Ridge Hospital",
+            "id": "here:pds:place:288jx7ps-272c27120c24033b27af244009f26550",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Ridge Hospital, Castle Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Castle Road"
+            },
+            "position": {
+                "lat": 5.56244,
+                "lng": -0.20033
+            },
+            "access": [
+                {
+                    "lat": 5.56231,
+                    "lng": -0.20043
+                }
+            ],
+            "distance": 11852,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142187470"
+                }
+            ]
+        },
+        {
+            "title": "King David Hospital",
+            "id": "here:pds:place:288jx7ps-e7d595f6fe3a074b9ab141e507c25df0",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "King David Hospital, 1st Close, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "1st Close"
+            },
+            "position": {
+                "lat": 5.59285,
+                "lng": -0.20589
+            },
+            "access": [
+                {
+                    "lat": 5.59275,
+                    "lng": -0.20578
+                }
+            ],
+            "distance": 11991,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142182974"
+                }
+            ]
+        },
+        {
+            "title": "Greater Accra Regional Hospital",
+            "id": "here:pds:place:288ebzze-2ada26274e8b4008bceea10ba5490b39",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Greater Accra Regional Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.56156,
+                "lng": -0.19855
+            },
+            "access": [
+                {
+                    "lat": 5.56128,
+                    "lng": -0.19905
+                }
+            ],
+            "distance": 12041,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1212975278"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302228315"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "https://inforidgehhospita.wixsite.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Maamobi General Hospital",
+            "id": "here:pds:place:288ebzzg-412edeee0e384bb683f63a6fa0ec294b",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Maamobi General Hospital, Asafoatse Mankata Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Asafoatse Mankata Street"
+            },
+            "position": {
+                "lat": 5.59164,
+                "lng": -0.19913
+            },
+            "access": [
+                {
+                    "lat": 5.59177,
+                    "lng": -0.1996
+                }
+            ],
+            "distance": 12648,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210859375"
+                }
+            ]
+        },
+        {
+            "title": "Martin Memorial Hospital",
+            "id": "here:pds:place:288jx7ps-f99dc1eadb2b015e069acf530cff5b58",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Martin Memorial Hospital, Odotei Tsui Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Odotei Tsui Street"
+            },
+            "position": {
+                "lat": 5.61022,
+                "lng": -0.20463
+            },
+            "access": [
+                {
+                    "lat": 5.61041,
+                    "lng": -0.20464
+                }
+            ],
+            "distance": 12930,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142181109"
+                }
+            ]
+        },
+        {
+            "title": "Achimota Hospital",
+            "id": "here:pds:place:288jx7ps-442d37de7c2709af4d3b82beb570d1d1",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Achimota Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.62933,
+                "lng": -0.21733
+            },
+            "access": [
+                {
+                    "lat": 5.62929,
+                    "lng": -0.21748
+                }
+            ],
+            "distance": 12968,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142176047"
+                }
+            ]
+        },
+        {
+            "title": "Hospital",
+            "id": "here:pds:place:288jx7ps-050869a248250eaaa2e8b74f01ad2265",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.62938,
+                "lng": -0.21668
+            },
+            "access": [
+                {
+                    "lat": 5.62928,
+                    "lng": -0.21657
+                }
+            ],
+            "distance": 13027,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136370545"
+                }
+            ]
+        },
+        {
+            "title": "Sulemana Memorial Hospital",
+            "id": "here:pds:place:288jx7ps-83039312732205c048d93ca56a31d330",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Sulemana Memorial Hospital, Manyawale Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Manyawale Street"
+            },
+            "position": {
+                "lat": 5.59432,
+                "lng": -0.19553
+            },
+            "access": [
+                {
+                    "lat": 5.59446,
+                    "lng": -0.19545
+                }
+            ],
+            "distance": 13123,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142174501"
+                }
+            ]
+        },
+        {
+            "title": "Trust Specialist Hospital",
+            "id": "here:pds:place:288ebzze-0a383d53a16440509a7804d38d2a2c15",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Trust Specialist Hospital, Angola Avenue, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Angola Avenue"
+            },
+            "position": {
+                "lat": 5.56068,
+                "lng": -0.1871
+            },
+            "access": [
+                {
+                    "lat": 5.56059,
+                    "lng": -0.18734
+                }
+            ],
+            "distance": 13300,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210494390"
+                }
+            ]
+        },
+        {
+            "title": "Medifem Hospital",
+            "id": "here:pds:place:288jx7ps-cfd49b64e7a5095f12f206d04685623c",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Medifem Hospital, Odotei Tsui Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Odotei Tsui Street"
+            },
+            "position": {
+                "lat": 5.61273,
+                "lng": -0.202
+            },
+            "access": [
+                {
+                    "lat": 5.61286,
+                    "lng": -0.20211
+                }
+            ],
+            "distance": 13319,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142188064"
+                }
+            ]
+        },
+        {
+            "title": "International Health Care Centre",
+            "id": "here:pds:place:288jx7ps-be46469e3a590dc9e3275e7e519de2b2",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "International Health Care Centre, Continental Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Continental Road"
+            },
+            "position": {
+                "lat": 5.60535,
+                "lng": -0.19758
+            },
+            "access": [
+                {
+                    "lat": 5.60544,
+                    "lng": -0.19771
+                }
+            ],
+            "distance": 13381,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142179509"
+                },
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142186771"
+                }
+            ]
+        },
+        {
+            "title": "Johpat Hospital",
+            "id": "here:pds:place:288jx7ps-b03682a8cc3106313d21e7f674f226e0",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Johpat Hospital, Odotei Tsui Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Odotei Tsui Street"
+            },
+            "position": {
+                "lat": 5.61142,
+                "lng": -0.19954
+            },
+            "access": [
+                {
+                    "lat": 5.61154,
+                    "lng": -0.19965
+                }
+            ],
+            "distance": 13489,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142178288"
+                }
+            ]
+        },
+        {
+            "title": "The Trust Hospital",
+            "id": "here:pds:place:288ebzze-a40677c8a729409a97bdbd8f27f465ee",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "The Trust Hospital, Ring Road East, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Ring Road East"
+            },
+            "position": {
+                "lat": 5.56248,
+                "lng": -0.18195
+            },
+            "access": [
+                {
+                    "lat": 5.56277,
+                    "lng": -0.18164
+                }
+            ],
+            "distance": 13881,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210671822"
+                }
+            ]
+        },
+        {
+            "title": "Police Hospital",
+            "id": "here:pds:place:288jx7ps-18f510e186dd02f30d7e4379f66a0254",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Police Hospital, Rangoon Loop, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "Rangoon Loop"
+            },
+            "position": {
+                "lat": 5.56865,
+                "lng": -0.18218
+            },
+            "access": [
+                {
+                    "lat": 5.56907,
+                    "lng": -0.18114
+                }
+            ],
+            "distance": 13917,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136370951"
+                }
+            ]
+        },
+        {
+            "title": "Police Hospital",
+            "id": "here:pds:place:288jx7ps-54284daf145a06ab7602748bed5ffd59",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Police Hospital, Police Hospital Street, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "Police Hospital Street"
+            },
+            "position": {
+                "lat": 5.56862,
+                "lng": -0.18215
+            },
+            "access": [
+                {
+                    "lat": 5.5684,
+                    "lng": -0.18223
+                }
+            ],
+            "distance": 13920,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142176262"
+                }
+            ]
+        },
+        {
+            "title": "Kumorji Hospital",
+            "id": "here:pds:place:288jx7ps-d9d2dfb6a4590c0b391d82809f996e35",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Kumorji Hospital, Josif Broz Tito Avenue, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "Josif Broz Tito Avenue"
+            },
+            "position": {
+                "lat": 5.57423,
+                "lng": -0.18263
+            },
+            "access": [
+                {
+                    "lat": 5.57432,
+                    "lng": -0.18277
+                }
+            ],
+            "distance": 13952,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142180892"
+                }
+            ]
+        },
+        {
+            "title": "Vra Hospital & Pharmacy",
+            "id": "here:pds:place:288jx7ps-8ebeca5c0c680d29c88e496dbfbc96cc",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Vra Hospital & Pharmacy, Lokko Street, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Lokko Street"
+            },
+            "position": {
+                "lat": 5.55403,
+                "lng": -0.18077
+            },
+            "access": [
+                {
+                    "lat": 5.55373,
+                    "lng": -0.18071
+                }
+            ],
+            "distance": 13982,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136371226"
+                }
+            ]
+        },
+        {
+            "title": "Hospital",
+            "id": "here:pds:place:288jx7ps-a59ca746cdb107d2bee4908e886c31ac",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Hospital, Police Hospital Street, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "Police Hospital Street"
+            },
+            "position": {
+                "lat": 5.5681,
+                "lng": -0.18089
+            },
+            "access": [
+                {
+                    "lat": 5.56825,
+                    "lng": -0.18085
+                }
+            ],
+            "distance": 14052,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136371295"
+                }
+            ]
+        },
+        {
+            "title": "Kumordjie Hospital",
+            "id": "here:pds:place:288jx7ps-92cfa3c5829306289c97cfd46836afe4",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Kumordjie Hospital, Secretariat Loop, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "Secretariat Loop"
+            },
+            "position": {
+                "lat": 5.57365,
+                "lng": -0.18151
+            },
+            "access": [
+                {
+                    "lat": 5.57393,
+                    "lng": -0.18186
+                }
+            ],
+            "distance": 14064,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142187701"
+                }
+            ]
+        },
+        {
+            "title": "Clecom Memorial Specialist Hospital",
+            "id": "here:pds:place:288jx7ps-c6be5d5c31e4022443b84ffdd3850e4c",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Clecom Memorial Specialist Hospital, Nii Nortei Nyanchie Crescent, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Nii Nortei Nyanchie Crescent"
+            },
+            "position": {
+                "lat": 5.61484,
+                "lng": -0.19465
+            },
+            "access": [
+                {
+                    "lat": 5.61496,
+                    "lng": -0.19476
+                }
+            ],
+            "distance": 14145,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142186551"
+                }
+            ]
+        },
+        {
+            "title": "37 Military Hospital",
+            "id": "here:pds:place:288ebzzg-3fea75de168b4807ae7375681f30dd19",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "37 Military Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.58804,
+                "lng": -0.1834
+            },
+            "access": [
+                {
+                    "lat": 5.58793,
+                    "lng": -0.18317
+                }
+            ],
+            "distance": 14193,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136371178"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302777595"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Kumordzie Hospital",
+            "id": "here:pds:place:288jx7ps-d276c9b9737b03c3eb96cd7519d4f587",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Kumordzie Hospital, Cantonments Road, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "Cantonments Road"
+            },
+            "position": {
+                "lat": 5.57227,
+                "lng": -0.1798
+            },
+            "access": [
+                {
+                    "lat": 5.57231,
+                    "lng": -0.17996
+                }
+            ],
+            "distance": 14229,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142187385"
+                }
+            ]
+        },
+        {
+            "title": "Cantonments Hospital",
+            "id": "here:pds:place:288jx7ps-fafc721bcf2f02095b8e13c9ff8c313b",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Cantonments Hospital, 1st Cantonments Lane, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "1st Cantonments Lane"
+            },
+            "position": {
+                "lat": 5.57535,
+                "lng": -0.17847
+            },
+            "access": [
+                {
+                    "lat": 5.5752,
+                    "lng": -0.1785
+                }
+            ],
+            "distance": 14426,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142221255"
+                }
+            ]
+        },
+        {
+            "title": "Skyview Hospital",
+            "id": "here:pds:place:288ecpb3-0a2eef76d1064ea2affb24a8be6a67ec",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Skyview Hospital, Ga West, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga West"
+            },
+            "position": {
+                "lat": 5.68554,
+                "lng": -0.27817
+            },
+            "access": [
+                {
+                    "lat": 5.6854,
+                    "lng": -0.27825
+                }
+            ],
+            "distance": 14932,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210878383"
+                }
+            ]
+        },
+        {
+            "title": "Ghana Atomic Energy Commison",
+            "id": "here:pds:place:288ecpb4-6297813317584c11877ba5844f5bfe23",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Ghana Atomic Energy Commison, Ga East, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga East"
+            },
+            "position": {
+                "lat": 5.66827,
+                "lng": -0.23183
+            },
+            "access": [
+                {
+                    "lat": 5.66765,
+                    "lng": -0.23188
+                }
+            ],
+            "distance": 15158,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210878314"
+                }
+            ]
+        },
+        {
+            "title": "Health Concern-Ghana",
+            "id": "here:pds:place:288jx7ps-8ce18561960f0782c6fdf4983610a56e",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Health Concern-Ghana, Ga East, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga East",
+                "district": "Dome"
+            },
+            "position": {
+                "lat": 5.65153,
+                "lng": -0.20942
+            },
+            "access": [
+                {
+                    "lat": 5.65139,
+                    "lng": -0.20945
+                }
+            ],
+            "distance": 15283,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142175062"
+                }
+            ]
+        },
+        {
+            "title": "La General Hospital",
+            "id": "here:pds:place:288jx7ps-7abe40f89a7300a406a579e0ccd1a690",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "La General Hospital, Labadi Road, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "Labadi Road"
+            },
+            "position": {
+                "lat": 5.55582,
+                "lng": -0.16665
+            },
+            "access": [
+                {
+                    "lat": 5.55641,
+                    "lng": -0.16675
+                }
+            ],
+            "distance": 15546,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136370066"
+                }
+            ]
+        },
+        {
+            "title": "La General Hospital",
+            "id": "here:pds:place:288jx7ps-2e8f0b1a5ee409195ff3ce68039b6b8e",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "La General Hospital, Jomo Street, La Dade-Kotopon, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Dade-Kotopon",
+                "district": "Accra",
+                "street": "Jomo Street"
+            },
+            "position": {
+                "lat": 5.55579,
+                "lng": -0.16658
+            },
+            "access": [
+                {
+                    "lat": 5.55554,
+                    "lng": -0.16613
+                }
+            ],
+            "distance": 15554,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142188861"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233303302694"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ga East Municipal Hospital",
+            "id": "here:pds:place:288ecpb6-bc74e8435d9d76d38a88634fda0295dc",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Ga East Municipal Hospital, Ga East, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga East"
+            },
+            "position": {
+                "lat": 5.67393,
+                "lng": -0.22896
+            },
+            "access": [
+                {
+                    "lat": 5.67475,
+                    "lng": -0.2295
+                }
+            ],
+            "distance": 15859,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1230800370"
+                }
+            ]
+        },
+        {
+            "title": "University of Ghana Medical Centre",
+            "id": "here:pds:place:288ecpb5-ada423be29c1a654c2b5b7f4dbc1d1d7",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "University of Ghana Medical Centre, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.63244,
+                "lng": -0.18614
+            },
+            "access": [
+                {
+                    "lat": 5.63217,
+                    "lng": -0.18646
+                }
+            ],
+            "distance": 15955,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1232338447"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302550843"
+                        }
+                    ],
+                    "mobile": [
+                        {
+                            "value": "+233596993837"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "https://ugmedicalcentre.org"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "info@ugmc.ug.edu.gh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Ga West Municipal Hospital",
+            "id": "here:pds:place:288ecpb3-205ebc50638846d9b683d98951872f66",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Ga West Municipal Hospital, Ga West, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ga West"
+            },
+            "position": {
+                "lat": 5.70208,
+                "lng": -0.29935
+            },
+            "access": [
+                {
+                    "lat": 5.70245,
+                    "lng": -0.30006
+                }
+            ],
+            "distance": 16446,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1211450275"
+                }
+            ]
+        },
+        {
+            "title": "University of Ghana Hospital",
+            "id": "here:pds:place:288ecpb5-07413381b4ec3876440628578b72d6d6",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "University of Ghana Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.64852,
+                "lng": -0.18937
+            },
+            "access": [
+                {
+                    "lat": 5.6484,
+                    "lng": -0.18912
+                }
+            ],
+            "distance": 16714,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1228725067"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302550843"
+                        },
+                        {
+                            "value": "+233302550844"
+                        },
+                        {
+                            "value": "+233302550845"
+                        }
+                    ],
+                    "mobile": [
+                        {
+                            "value": "+233551995599"
+                        },
+                        {
+                            "value": "+233596993837"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "https://ugmedicalcentre.org/contactus"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "info@ugmc.ug.edu.gh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "University of Ghana Hospital",
+            "id": "here:pds:place:288ecpb5-ce822d534a464b9f95aa8f17a6c677a0",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "University of Ghana Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra"
+            },
+            "position": {
+                "lat": 5.65107,
+                "lng": -0.17793
+            },
+            "access": [
+                {
+                    "lat": 5.65087,
+                    "lng": -0.17801
+                }
+            ],
+            "distance": 17887,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210671728"
+                }
+            ]
+        },
+        {
+            "title": "Asare Odei Hospital",
+            "id": "here:pds:place:288jx7ps-711f224529a70a141c97ecccc864e7b4",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Asare Odei Hospital, Dakar Avenue, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Dakar Avenue"
+            },
+            "position": {
+                "lat": 5.64054,
+                "lng": -0.16862
+            },
+            "access": [
+                {
+                    "lat": 5.64069,
+                    "lng": -0.16864
+                }
+            ],
+            "distance": 18074,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142179192"
+                }
+            ]
+        },
+        {
+            "title": "North Legon Hospital",
+            "id": "here:pds:place:288jx7ps-7c44fbcd375c0fd3f698d58af2604f2a",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "North Legon Hospital, La Nkwantanang Madina, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Nkwantanang Madina",
+                "district": "Agbogba"
+            },
+            "position": {
+                "lat": 5.66898,
+                "lng": -0.18219
+            },
+            "access": [
+                {
+                    "lat": 5.66897,
+                    "lng": -0.18203
+                }
+            ],
+            "distance": 18801,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142183958"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302506666"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Lister Hospital",
+            "id": "here:pds:place:288jx7ps-b89385a5b95005addb36fab6f9553a0b",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Lister Hospital, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Nungua"
+            },
+            "position": {
+                "lat": 5.61947,
+                "lng": -0.1467
+            },
+            "access": [
+                {
+                    "lat": 5.61925,
+                    "lng": -0.14562
+                }
+            ],
+            "distance": 19171,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142179182"
+                }
+            ]
+        },
+        {
+            "title": "Lister",
+            "id": "here:pds:place:288ebzzu-75d1b7c5d7c94bc1a7f55b1329cc3a39",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Lister, Finali Drive, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Nungua",
+                "street": "Finali Drive"
+            },
+            "position": {
+                "lat": 5.6194,
+                "lng": -0.14602
+            },
+            "access": [
+                {
+                    "lat": 5.61973,
+                    "lng": -0.14579
+                }
+            ],
+            "distance": 19238,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210611937"
+                }
+            ]
+        },
+        {
+            "title": "Del Iternational Hospital",
+            "id": "here:pds:place:288ecpbh-0248192fe51d4d7ab609b254e8cfcfdc",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Del Iternational Hospital, Nii Sai Road, Accra, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Accra",
+                "district": "Accra",
+                "street": "Nii Sai Road"
+            },
+            "position": {
+                "lat": 5.65233,
+                "lng": -0.15364
+            },
+            "access": [
+                {
+                    "lat": 5.6522,
+                    "lng": -0.15364
+                }
+            ],
+            "distance": 20176,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210670842"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302543256"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Lekman Hospital",
+            "id": "here:pds:place:288ebzzv-64732f0a6df545e3add941344174673d",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Lekman Hospital, Teshie Link, Ledzokuku-Krowor, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ledzokuku-Krowor",
+                "district": "Nungua",
+                "street": "Teshie Link"
+            },
+            "position": {
+                "lat": 5.60324,
+                "lng": -0.12059
+            },
+            "access": [
+                {
+                    "lat": 5.60248,
+                    "lng": -0.12073
+                }
+            ],
+            "distance": 21345,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210915287"
+                }
+            ],
+            "contacts": [
+                {
+                    "www": [
+                        {
+                            "value": "http://www.lekmahospital.org"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Family Health Hospital",
+            "id": "here:pds:place:288jx7ps-0dd5fd2d166b069cef0c1d46068f5ea5",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Family Health Hospital, Labadi Teshie Road, Ledzokuku-Krowor, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ledzokuku-Krowor",
+                "district": "Nungua",
+                "street": "Labadi Teshie Road"
+            },
+            "position": {
+                "lat": 5.57354,
+                "lng": -0.11264
+            },
+            "access": [
+                {
+                    "lat": 5.57376,
+                    "lng": -0.11281
+                }
+            ],
+            "distance": 21627,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142182154"
+                }
+            ],
+            "contacts": [
+                {
+                    "mobile": [
+                        {
+                            "value": "+233289108980"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Gloria Family Health Centre",
+            "id": "here:pds:place:288jx7ps-1fae39cd2f4d0e8ba5bb4cc9b0d6f1ec",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Gloria Family Health Centre, La Nkwantanang Madina, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Nkwantanang Madina",
+                "district": "Agbogba"
+            },
+            "position": {
+                "lat": 5.69691,
+                "lng": -0.17367
+            },
+            "access": [
+                {
+                    "lat": 5.69676,
+                    "lng": -0.17366
+                }
+            ],
+            "distance": 21662,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142188344"
+                },
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210036480"
+                }
+            ]
+        },
+        {
+            "title": "Sheikh Ibrahim Herbal Center",
+            "id": "here:pds:place:288jx7ps-b740980c20560371f1072a6ac2472466",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Sheikh Ibrahim Herbal Center, Adenta, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Adenta"
+            },
+            "position": {
+                "lat": 5.68702,
+                "lng": -0.15923
+            },
+            "access": [
+                {
+                    "lat": 5.68614,
+                    "lng": -0.15752
+                }
+            ],
+            "distance": 22030,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142180178"
+                }
+            ]
+        },
+        {
+            "title": "Pantang Hospital",
+            "id": "here:pds:place:288jx7ps-1b2984f3bb630488d0356e80c69f499d",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Pantang Hospital, La Nkwantanang Madina, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Nkwantanang Madina"
+            },
+            "position": {
+                "lat": 5.71647,
+                "lng": -0.18848
+            },
+            "access": [
+                {
+                    "lat": 5.71534,
+                    "lng": -0.18802
+                }
+            ],
+            "distance": 22297,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142203893"
+                }
+            ]
+        },
+        {
+            "title": "Ghana Canada Medical Hospital",
+            "id": "here:pds:place:288ecpbj-80cdbd9adb434e7db2fb4bd398e0069c",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Ghana Canada Medical Hospital, Gen. C. Modey Street, Adenta, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Adenta",
+                "district": "Adentan East",
+                "street": "Gen. C. Modey Street"
+            },
+            "position": {
+                "lat": 5.6465,
+                "lng": -0.12398
+            },
+            "access": [
+                {
+                    "lat": 5.64624,
+                    "lng": -0.12427
+                }
+            ],
+            "distance": 22708,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210878350"
+                }
+            ]
+        },
+        {
+            "title": "Manna Mission Hospital",
+            "id": "here:pds:place:288jx7ps-b7bc65310c750869d2640850fa79bf81",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Manna Mission Hospital, Ledzokuku-Krowor, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ledzokuku-Krowor",
+                "district": "Nungua"
+            },
+            "position": {
+                "lat": 5.60727,
+                "lng": -0.10888
+            },
+            "access": [
+                {
+                    "lat": 5.60742,
+                    "lng": -0.10893
+                }
+            ],
+            "distance": 22712,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142206270"
+                }
+            ]
+        },
+        {
+            "title": "Airport Women's Hospital",
+            "id": "here:pds:place:288ecpbk-8e5e7797757050ca848cd77e2b3d61a4",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Airport Women's Hospital, 2nd Adma Drive, Adenta, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Adenta",
+                "district": "Adentan East",
+                "street": "2nd Adma Drive"
+            },
+            "position": {
+                "lat": 5.70747,
+                "lng": -0.16544
+            },
+            "access": [
+                {
+                    "lat": 5.70767,
+                    "lng": -0.16549
+                }
+            ],
+            "distance": 23142,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1232195808"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302736107"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "https://www.airportwomenshospital.com"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "info@airportwomenshospital.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Greater Grace Hospital",
+            "id": "here:pds:place:288jx7ps-c7a53d994a0608d0bf27fd46421615de",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Greater Grace Hospital, La Nkwantanang Madina, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Nkwantanang Madina"
+            },
+            "position": {
+                "lat": 5.71845,
+                "lng": -0.17405
+            },
+            "access": [
+                {
+                    "lat": 5.71854,
+                    "lng": -0.17435
+                }
+            ],
+            "distance": 23444,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142174048"
+                }
+            ]
+        },
+        {
+            "title": "Mother Love Hospital",
+            "id": "here:pds:place:288jx7ps-8673779e283103387d2db9f738f010c0",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Mother Love Hospital, Adenta-Dodowa Road, La Nkwantanang Madina, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "La Nkwantanang Madina",
+                "street": "Adenta-Dodowa Road"
+            },
+            "position": {
+                "lat": 5.71675,
+                "lng": -0.16626
+            },
+            "access": [
+                {
+                    "lat": 5.71641,
+                    "lng": -0.16583
+                }
+            ],
+            "distance": 23852,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142187550"
+                }
+            ],
+            "contacts": [
+                {
+                    "mobile": [
+                        {
+                            "value": "+233244075765"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Hag Medical Center Hospital",
+            "id": "here:pds:place:288ecpbj-2b5ba0554e5b403f833214fa8ff4904d",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Hag Medical Center Hospital, Adenta, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Adenta",
+                "district": "Adentan East"
+            },
+            "position": {
+                "lat": 5.66744,
+                "lng": -0.11655
+            },
+            "access": [
+                {
+                    "lat": 5.66732,
+                    "lng": -0.11639
+                }
+            ],
+            "distance": 24551,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210879172"
+                }
+            ]
+        },
+        {
+            "title": "Inkoom Hospital",
+            "id": "here:pds:place:288ecpbj-76f0c2f4c2394d19a2811ec3500b827e",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Inkoom Hospital, Spintex Road, Ledzokuku-Krowor, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ledzokuku-Krowor",
+                "district": "Lashibi",
+                "street": "Spintex Road"
+            },
+            "position": {
+                "lat": 5.63382,
+                "lng": -0.09828
+            },
+            "access": [
+                {
+                    "lat": 5.63388,
+                    "lng": -0.09822
+                }
+            ],
+            "distance": 24741,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210880231"
+                }
+            ]
+        },
+        {
+            "title": "Banahene Specialist Hospital",
+            "id": "here:pds:place:288ecpbn-7be5b67e50bc5b38f5904f398751e6ef",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Banahene Specialist Hospital, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Lashibi"
+            },
+            "position": {
+                "lat": 5.63989,
+                "lng": -0.07697
+            },
+            "access": [
+                {
+                    "lat": 5.6392,
+                    "lng": -0.07714
+                }
+            ],
+            "distance": 27185,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1230511532"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233303407951"
+                        }
+                    ],
+                    "mobile": [
+                        {
+                            "value": "+233592002529"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "https://banahene-specialist-hospital.business.site"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "banahenehospital@gmail.com"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "C&J Medicare Hospital and Diagnostic Centre",
+            "id": "here:pds:place:288ebzzy-11292300d2414338858533531087ec78",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "C&J Medicare Hospital and Diagnostic Centre, Estate Junction Road, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Lashibi",
+                "street": "Estate Junction Road"
+            },
+            "position": {
+                "lat": 5.62245,
+                "lng": -0.06282
+            },
+            "access": [
+                {
+                    "lat": 5.62224,
+                    "lng": -0.06295
+                }
+            ],
+            "distance": 28074,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1211450272"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233303400051"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "http://candjhospital.org"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Complex Hospital",
+            "id": "here:pds:place:288jx7ps-548e8eaaacc306cc766d5bb645f456a7",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Complex Hospital, Ohene Djan High Street, Nsawam Adoagyiri, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Eastern",
+                "city": "Nsawam Adoagyiri",
+                "district": "Nsawam",
+                "street": "Ohene Djan High Street"
+            },
+            "position": {
+                "lat": 5.80677,
+                "lng": -0.34612
+            },
+            "access": [
+                {
+                    "lat": 5.80687,
+                    "lng": -0.346
+                }
+            ],
+            "distance": 28395,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142182824"
+                }
+            ]
+        },
+        {
+            "title": "Nsawam Hospital",
+            "id": "here:pds:place:288jx7ps-2b96c73356020b19a57b19dade8dfb0d",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Nsawam Hospital, Nsawam Adoagyiri, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Eastern",
+                "city": "Nsawam Adoagyiri",
+                "district": "Nsawam"
+            },
+            "position": {
+                "lat": 5.81075,
+                "lng": -0.33734
+            },
+            "access": [
+                {
+                    "lat": 5.81047,
+                    "lng": -0.33732
+                }
+            ],
+            "distance": 28703,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136367635"
+                }
+            ]
+        },
+        {
+            "title": "City of Hope Hospital",
+            "id": "here:pds:place:288ecpbn-7084cec7cc294416ac67b74bc44fe76a",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "City of Hope Hospital, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Lashibi"
+            },
+            "position": {
+                "lat": 5.63917,
+                "lng": -0.05641
+            },
+            "access": [
+                {
+                    "lat": 5.63919,
+                    "lng": -0.05619
+                }
+            ],
+            "distance": 29302,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210909156"
+                }
+            ]
+        },
+        {
+            "title": "Jubail Specialist Hospital",
+            "id": "here:pds:place:288jx7ps-28a1c418f81809ab50f6b46817b1b34b",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Jubail Specialist Hospital, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Lashibi"
+            },
+            "position": {
+                "lat": 5.6257,
+                "lng": -0.05196
+            },
+            "access": [
+                {
+                    "lat": 5.62518,
+                    "lng": -0.0524
+                }
+            ],
+            "distance": 29329,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142182221"
+                }
+            ]
+        },
+        {
+            "title": "Newlife Hospital",
+            "id": "here:pds:place:288jx7ps-b10982d9e0a60ace74c6b1a367fe16a0",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Newlife Hospital, Swedru-Nsawam Road, Nsawam Adoagyiri, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Eastern",
+                "city": "Nsawam Adoagyiri",
+                "street": "Swedru-Nsawam Road"
+            },
+            "position": {
+                "lat": 5.81967,
+                "lng": -0.35524
+            },
+            "access": [
+                {
+                    "lat": 5.81984,
+                    "lng": -0.35519
+                }
+            ],
+            "distance": 29976,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142177733"
+                }
+            ]
+        },
+        {
+            "title": "International Maritime",
+            "id": "here:pds:place:288ecpbp-c63513d3c3754f7d9e27a8c2d73443cd",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "International Maritime, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Tema"
+            },
+            "position": {
+                "lat": 5.62652,
+                "lng": -0.02728
+            },
+            "access": [
+                {
+                    "lat": 5.62717,
+                    "lng": -0.0271
+                }
+            ],
+            "distance": 31990,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1210931833"
+                }
+            ]
+        },
+        {
+            "title": "Catquo Hospital",
+            "id": "here:pds:place:288jx7ps-4f4074d70ec50e2e0e30085853762e28",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Catquo Hospital, Heiman Gmeiner Street, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Tema",
+                "street": "Heiman Gmeiner Street"
+            },
+            "position": {
+                "lat": 5.65386,
+                "lng": -0.02328
+            },
+            "access": [
+                {
+                    "lat": 5.65383,
+                    "lng": -0.02327
+                }
+            ],
+            "distance": 33301,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136370214"
+                }
+            ]
+        },
+        {
+            "title": "Caiquo Hospital",
+            "id": "here:pds:place:288jx7ps-759e5fd122e2053d990b6c0b0e43a6f1",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Caiquo Hospital, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Tema"
+            },
+            "position": {
+                "lat": 5.65306,
+                "lng": -0.02244
+            },
+            "access": [
+                {
+                    "lat": 5.65375,
+                    "lng": -0.02199
+                }
+            ],
+            "distance": 33359,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142185428"
+                }
+            ]
+        },
+        {
+            "title": "New Crystal Health Services Limited",
+            "id": "here:pds:place:288ecpbr-801c9cc5eaee6353231b61f74e8fc13f",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "New Crystal Health Services Limited, Ashaiman Road, Ashaiman, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Ashaiman",
+                "district": "Ashaiman",
+                "street": "Ashaiman Road"
+            },
+            "position": {
+                "lat": 5.68531,
+                "lng": -0.0329
+            },
+            "access": [
+                {
+                    "lat": 5.68549,
+                    "lng": -0.03311
+                }
+            ],
+            "distance": 33656,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1227780369"
+                }
+            ],
+            "contacts": [
+                {
+                    "phone": [
+                        {
+                            "value": "+233302977872"
+                        }
+                    ],
+                    "mobile": [
+                        {
+                            "value": "+233544347239"
+                        }
+                    ],
+                    "www": [
+                        {
+                            "value": "https://newcrystalhealth.org"
+                        }
+                    ],
+                    "email": [
+                        {
+                            "value": "info@newcrystalhealth.org"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Provita Specialist Hospital",
+            "id": "here:pds:place:288jx7ps-7e2a04a4c7d40ed783ff3d897bd92cf2",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Provita Specialist Hospital, Obetsebi Lamptey Link, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Tema",
+                "street": "Obetsebi Lamptey Link"
+            },
+            "position": {
+                "lat": 5.65227,
+                "lng": -0.01891
+            },
+            "access": [
+                {
+                    "lat": 5.65206,
+                    "lng": -0.0198
+                }
+            ],
+            "distance": 33700,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1142174598"
+                }
+            ]
+        },
+        {
+            "title": "Solace Hospital",
+            "id": "here:pds:place:288jx7ps-9122f68592e20d9225505c8007417377",
+            "language": "en-GB",
+            "ontologyId": "here:cm:ontology:hospital",
+            "resultType": "place",
+            "address": {
+                "label": "Solace Hospital, Tema, Ghana",
+                "countryCode": "GHA",
+                "countryName": "Ghana",
+                "county": "Greater Accra",
+                "city": "Tema",
+                "district": "Tema"
+            },
+            "position": {
+                "lat": 5.67812,
+                "lng": -0.02879
+            },
+            "access": [
+                {
+                    "lat": 5.67825,
+                    "lng": -0.02889
+                }
+            ],
+            "distance": 33733,
+            "categories": [
+                {
+                    "id": "800-8000-0159",
+                    "name": "Hospital",
+                    "primary": true
+                }
+            ],
+            "references": [
+                {
+                    "supplier": {
+                        "id": "core"
+                    },
+                    "id": "1136370303"
+                }
+            ]
+        }
+    ]
+}

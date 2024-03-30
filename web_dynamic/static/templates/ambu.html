@@ -1,0 +1,99 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/ambulance.css') + '?' + cache_id }}">
+{% endblock %}
+
+
+{% block content %}
+<div class="split right-ambu">
+<table id="ambus">
+  <th>
+    <div class="filter-ambu">
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for locations.." title="Type in a name">
+    </div>
+  </th>
+  <tr>
+    <td>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/8943254/pexels-photo-8943254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Avatar">
+        <div class="container">
+          <h4><a href=""><b>Location</b></a></h4>
+          <p><b>Operature 1</b></p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3584099/pexels-photo-3584099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Avatar">
+        <div class="container">
+          <h4><a href=""><b>Location</b></a></h4>
+          <p><b>John Doe</b></p>
+        </div>
+      </div>
+    </td>
+    <td>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3584099/pexels-photo-3584099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Avatar">
+        <div class="container">
+          <h4><a href=""><b>Location</b></a></h4>
+          <p><b>John Doe</b></p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3584099/pexels-photo-3584099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Avatar">
+        <div class="container">
+          <h4><a href=""><b>Location</b></a></h4>
+          <p><b>John Doe</b></p>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="card">
+        <img src="../static/images/ambulance.jpg  + '?' + cache_id " alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>John Doe</b></h4>
+          <p><b>Architect & Engineer</b></p>
+        </div>
+      </div>
+    </td>
+    </div>
+    <td>
+      <div></div>
+    </td>
+  </tr>
+</table>
+</div>
+<script>
+  function myFunction() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("ambus");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      } 
+    }
+  }
+</script>
+{% endblock %}
+

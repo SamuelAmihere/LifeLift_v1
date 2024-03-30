@@ -1,0 +1,75 @@
+{% extends 'layout.html' %}
+
+{% block loginPage %}
+<li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="/login"> login</a>
+</li> 
+{% endblock %}
+
+{% block content %}
+
+{% block navLogin %}
+
+{% endblock %}
+<div class="split right-admin">
+  <table id="ambus">
+    <tr>
+      <td id="login-header">Login</td>
+    </tr>
+    <tr>
+
+      <td>
+        <div id="login-Main">
+          <form action="{{ url_for('login') }}" method="post">
+            {% for err in error %}
+              {% if err %}
+                <p style="color: red;">{{ error[err] }}</p>
+              {% endif %}
+            {% endfor %}
+            <div class="form-row align-items-right">
+              <div class="col-auto">
+                <label class="sr-only" for="user_name">Name</label>
+                <input type="text" class="form-control mb-2 login-input" id="user_name" placeholder="email" name="user_name">
+              </div>
+              <div class="col-auto">
+                <label class="sr-only" for="mail">email</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                  </div>
+                  <input type="text" class="form-control login-input" id="mail" placeholder="gmail.com" name="mail">
+                </div>
+              </div>
+              <div class="col-auto">
+                <label class="sr-only" for="password">Password</label>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">Password</div>
+                  </div>
+                  <input type="password" class="form-control login-input" id="password" placeholder="**********" name="password">
+                </div>
+              <div class="col-auto">
+                <div class="form-check mb-1 col-1">
+                  <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                  <label class="form-check-label" for="autoSizingCheck">
+                    Remember me
+                  </label>
+                </div>
+              </div>
+              <div class="col-auto row-1">
+                <button type="submit" class="btn btn-primary mb-1">login</button>
+              </div>
+              <br>
+            </div>
+          </form>
+        </div>
+        <div class="col-auto row-1 signup-btn">
+          <!-- Go to signup page -->
+          <h3><a href="/register">Signup</a></h3>
+        </div>
+      </td>
+      
+    </tr>
+  </table>
+</div>
+{% endblock %}

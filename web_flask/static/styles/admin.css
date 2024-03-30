@@ -1,0 +1,49 @@
+.right-admin {
+    /* left: 65%; */
+    /* border-style: solid; */
+    /* width: 60%; */
+    padding: 0 0;
+
+
+  }
+  .adminMenu {
+    /* position: fixed; */
+    color: #000;
+    /* background: #54bc1c; */
+    align-items: center;
+    padding: 0;
+    height: 70%;
+    width: 30%;
+    
+  }
+  .adminMenu li:hover {
+    background: #121212;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .newClass {
+    background: #121212;
+  }
+
+ .req-header {
+    border-style: solid;
+    position: fixed;
+} 
+
+
+.admin-request-tb table{
+    height: 400px;
+    overflow-y: scroll;
+    display: block;
+    
+}
+.admin-request-tb{
+    /* position: block; */
+    /* overflow-x: hidden; */
+    padding: 0 0;
+    width: 80%;
+    /* background: #3e0f0f; */
+    padding-left: 5%;
+    padding-top: 20px;
+}

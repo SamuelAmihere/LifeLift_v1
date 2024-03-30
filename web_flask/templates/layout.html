@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Lifelift</title>
+        <!-- Bootstrap: css  -->
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/boostrap/css/bootstrap.css') }}"> -->
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+        <!-- Font awesome: css -->
+        <script src="https://kit.fontawesome.com/683316fe43.js" crossorigin="anonymous"></script>      <!-- fonts.gtatic.com -->
+        <link re="preconnect" href="https://fonts.gstatic.com">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        {% block header %}{% endblock %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/googlemap.css')}}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/forms.css')}}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/content.css')}}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/commons.css')}}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/header.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/footer.css')}}">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+        <!-- favicon -->
+        <link rel="icon" href="{{ url_for('static', filename='../static/images/favicon.ico')}}">
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+          <div class="header-login header-logout">
+            {% if current_user.user_name %}
+              <a href="/"><i class="fa-regular fa-user"> &nbsp;</i>{{ current_user.user_name }}</a> &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="/logout">Logout</a>
+            {% else %}
+              <form action="{{ url_for('login') }}" method="post" >
+                <input type="text" name="username" placeholder="Username"><br>
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit">Login</button>
+              </form>
+            {% endif %}
+          </div>
+        </header>
+        <div class="container-nav">
+              <div class="navContainer navbar navbar-expand navbar-dark flex-column flex-md-row">
+                <nav class="navbar">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    {% block nav %}
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        {% block homePg_nav %}
+                          <li class="nav-item"> 
+                            <a class="nav-link" aria-current="page" href="/home">home</a>
+                          </li>
+                        {% endblock %} <!-- homePg_nav -->
+                        <li class="nav-item">
+                          <div id="req-home" >
+                            <a class="nav-link" href="/req"> request</a>
+                          </div>
+                        </li>            
+                        <li class="nav-item">
+                          <a class="nav-link" href="/login">admin</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+              </div>
+        </div>
+        <div class="container">
+            <!-- NAV -->
+            <section class="nav-section">
+
+              
+              {% endblock %} <!-- NavBlock -->
+            </section><!-- END NAV -->
+            
+            <!-- CONTENT -->
+     
+            
+            <section class="homeContent-1">
+                {% block Content1 %}
+                <div style="margin-bottom: 0; display: flex">
+                
+                </div>
+                
+                {% endblock %}
+            </section> <!-- END homeContent-1 -->
+
+        </div> <!-- END CONTAINER --> 
+        <footer>
+            <p>Lifelift &copy</p>
+        </footer>
+
+        {% block script %}{% endblock %}
+
+    </body>
+</html>

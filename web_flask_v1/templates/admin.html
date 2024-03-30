@@ -1,0 +1,68 @@
+{% extends 'layout.html' %}
+
+{% block header %}
+<link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/admin.css') }}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" 
+       type="text/javascript"></script>
+
+{% endblock %}
+{% block content %}
+
+
+{% block subMenu %}
+<nav class="navbar navbar-expand-lg bg-body-tertiary adminMenu">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0 admin-menu">
+    <li class="nav-item hosp" id="hos"> 
+      <a class="nav-link active" aria-current="page" href="#" id="submenuHos">Hospitals</a>
+    </li>
+
+    <li class="nav-item pat" id="pa">
+      <a class="nav-link active" href="#" id="submenuPa">Requests</a>
+    </li>
+  </ul>
+</nav>
+
+{% endblock %}
+
+{% block rightPane %}
+<div class="right-admin">
+
+  <div class="admin-request-tb">
+      {% if session['user_type'] == 'admin' %}
+      <h1 class="tb_title" id="tit">Hospitals</h1>
+
+    <table class="table-striped">
+      <thead>
+        <tr>
+          <th>Hospital</th>
+      
+          <th>Latitude</th>
+          
+          <th>Longitude</th>
+          <th>alerts</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for request in hospitals %}
+        <tr>
+            <td>{{ request['name'] }}</td>
+            <td>{{ request['latitude'] }}</td>
+            <td>{{ request['longitude'] }}</td>
+            <td>{{ request['alerts'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+
+{% endblock %}
+
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='../static/styles/js/admin.js') }}"></script>
+{% endblock %}

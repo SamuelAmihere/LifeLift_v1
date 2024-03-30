@@ -1,0 +1,9 @@
+Get hospitals closer by
+---
+tags:
+  - Hospital
+responses:
+  200:
+    description: OK
+    schema:
+      type: array

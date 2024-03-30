@@ -1,0 +1,62 @@
+.right-admin {
+    /* left: 65%; */
+    border-style: solid;
+    /* width: 60%; */
+    padding: 0 0;
+
+
+  }
+  .adminMenu {
+    /* position: fixed; */
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    font-size: medium;
+    /* background: #54bc1c; */
+    align-items: center;
+    padding: 0;
+    height: 70%;
+    width: 20%;
+  }
+  .adminMenu li:hover {
+    background: #111010;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .newClass {
+    background: #222221;
+  }
+
+ .req-header {
+    border-style: solid;
+    position: fixed;
+    /* right: 0;
+    align-items: center;
+    align-content: center;
+    float: right;
+    background: #841c52;
+    top: 10%;
+    max-width: 700px;
+    position: fixed;
+    max-width: 600px;
+    bottom: 50px; */
+} 
+
+
+.admin-request-tb table{
+    height: 500px;
+    overflow-y: scroll;
+    display: block;
+}
+.admin-request-tb{
+    /* position: block; */
+    /* overflow-x: hidden; */
+    padding: 0 0;
+    width: 80%;
+    /* background: #3e0f0f; */
+    padding-left: 5%;
+    padding-top: 20px;
+}
+

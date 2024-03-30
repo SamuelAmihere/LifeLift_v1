@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+
+{% block header %}
+<link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/admin.css') }}">
+
+{% endblock %}
+{% block content %}
+
+
+<div class="split right-admin">
+  <div class="split req-header">
+    <h1>Hospitals</h1>
+  </div>
+  <div class="admin-request-tb">
+    {% if session['user_type'] == 'admin' %}
+  
+    <table>
+      <div class="">
+        <th>Name</th>
+      
+        <th>Latitude</th>
+        
+        <th>Longitude</th>
+      </div>
+      
+      {% for request in hospitals %}
+      <tr>
+        <div>
+          <td>{{ request['company_id'] }}</td>
+          <td>{{ request['latitude'] }}</td>
+          <td>{{ request['longitude'] }}</td>
+        </div>
+  
+      </tr>
+      {% endfor %}
+    </table>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

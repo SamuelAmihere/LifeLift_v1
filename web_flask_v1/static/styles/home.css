@@ -1,0 +1,33 @@
+#call-199 {
+    /* position: fixed; */
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    background: #54bc1c;
+    width: 70px;
+    align-items: center;
+    padding: 0 3px;
+    margin-left: 25%;
+}
+
+#call-199 a {
+    color: #ca0909;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 4px;
+    font: 1em sans-serif;
+    font-weight: 800;
+}
+
+.right {
+    padding-bottom: 0;
+    border-style: solid;
+    float: right;
+    right: 0;
+    /* position: fixed; */
+    width: 40%;
+    padding: 2 2;
+    border-color: #5f5757;
+    border-width: 2px;
+    /* background: #4a25ef; */
+}

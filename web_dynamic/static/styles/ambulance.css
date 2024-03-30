@@ -1,0 +1,63 @@
+.card {
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #888;
+    background-color: #f8f9fa;
+}
+
+.container {
+    /* flex-direction: row; */
+    color: #5a1414;
+    font-style:italic;
+    font-size: 10px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container h4 {
+
+    font-size: 14px;
+
+}
+
+#ambus img {
+    width: 70%;
+    height: 80%;
+    /* margin: 0 10px; */
+    transition: height 0.7s ease-out;
+}
+
+.filter-ambu {
+    top: 0;
+    right: 5;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 0;
+    padding-left: 2px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+    /* padding: 0 10px; */
+    color: #bbdc7f;
+    font-size: 16px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.filter-ambu input {
+    width: 100%;
+    height: 20px;
+    padding: 0 10px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    background: whitesmoke;
+    
+    font-size: 10px;
+}
+td {
+    vertical-align: top;
+}

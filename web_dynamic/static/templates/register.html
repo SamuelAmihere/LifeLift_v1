@@ -1,0 +1,115 @@
+{% extends 'login.html' %}
+{% block Heading %}
+<h1>Registration</h1>
+{% endblock %}
+{% block FormContent %}
+
+<div class="split right-admin">
+    <div class="register">
+        {% if field_error %}
+        <div class="alert alert-danger" role="alert">
+            {{ field_error }}       
+        </div>
+        {% endif %}
+
+        {% if registration['success'] %}
+        <div class="alert alert-success" role="alert">
+            {{ registration['success'] }}
+        </div>
+        {% endif %}
+        
+         <form class="row g-3" id="form-register" action="{{ url_for('register') }}" method="post">
+            <div class="col-md-8">
+                <label for="fname" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="fname" value="{{ request.form['fname'] }}" name="fname" >
+            </div>
+            <div class="col-md-8">
+                <label for="lname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lname" value="{{ request.form['lname'] }}" name="lname" >
+            </div>
+            <div class="col-md-8">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" value="{{ request.form['email'] }}" name="email" >
+            </div>
+            <div class="col-md-8">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phone" value="{{ request.form['phone'] }}" name="phone"></input>
+            </div>
+            <div class="col-md-8">
+                <label for="street" class="form-label">Street</label>
+                <input type="text" class="form-control" id="street" value="{{ request.form['street'] }}" name="street"></input>
+            </div>
+            <div class="col-md-8">
+                <label for="staffNum" class="form-label">Staff Number</label>
+                <input type="text" class="form-control" id="staffNum" value="{{ request.form['staffNum'] }}" name="staff_number"></input>
+            </div>
+            <div class="col-md-8">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" value="{{ request.form['password'] }}" name="password"></input>
+            </div>
+            <br><br>
+            <div class="col-md-10" id="userCat">
+                <label for="userType" class="form-label">Category</label>
+                <select id="userType" name="userType" class="form-select">
+                    {% for o in usertType %}
+                    <option value="{{ o }}" >{{ o }}</option>
+                    {% endfor %} 
+                </select>
+            </div>
+            <br><br>
+            <div class="col-md-10">
+                <label for="company_id" class="form-label">Company</label>
+                <select id="company_id" name="company_id" class="form-select">
+                    <option value="" >--select company--</option>
+                    {% for c in company %}
+                    <option value="{{ c.id }}" >{{ c.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <br><br>
+            <div class="col-md-5">
+                <label for="gender" class="form-label">Gender</label>
+                <select id="gender" name="gender" class="form-select">
+                    {% for g in gender %}
+                    <option value="{{ g }}" >{{ g }}</option>
+                    {% endfor %} 
+                </select>
+            </div><br>
+            <div class="col-md-4">
+                <br>
+                <button type="submit" id="submit" class="btn btn-primary">Sign up</button>
+            </div>
+            <br>
+      </form>
+      
+
+      {% if registration['success'] %}
+    <!-- turn off input fields -->
+    <script>
+        var inputs = document.querySelectorAll('input');
+        for (var i = 0; i < inputs.length; i++) {
+            // clear fields
+            inputs[i].value = '';
+            inputs[i].disabled = true;
+        }
+        // turn off select fields
+        var selects = document.querySelectorAll('select');
+        for (var i = 0; i < selects.length; i++) {
+            selects[i].disabled = true;
+        }
+        // turn off submit button
+        var submit = document.getElementById('submit');
+        submit.disabled = true;
+
+        // redirect to login page
+        setTimeout(function() {
+            window.location.href = '/login';
+        }, 3000);
+
+        
+
+    </script>
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

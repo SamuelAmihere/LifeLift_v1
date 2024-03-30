@@ -1,0 +1,48 @@
+Creates a new company
+"""     'name': 'Missing name',
+        'address_id': 'Missing address_id'
+"""
+---
+tags:
+  - Company
+responses:
+  200:
+    description: OK
+    schema:
+      type: array
+    items:
+      properties:
+        __class__:
+          type: string
+        created_at:
+          type: string
+          description: Date and time the company was created
+        updated_at:
+          type: string
+          description: Date and time the company was last updated
+        name:
+          type: string
+          description: Name of the company
+        id:
+          type: string
+          description: Unique identifier for the company
+          example: 1
+          required: true
+        address_id:
+          type: string
+          description: Unique identifier for the company
+          example: 1
+          required: true
+        
+  400:
+    description: Bad Request
+    schema:
+      $ref: '#/definitions/Error'
+  401:
+    description: Unauthorized
+    schema:
+      $ref: '#/definitions/Error'
+  403: 
+    description: Forbidden
+    schema:
+      $ref: '#/definitions/Error'

@@ -1,0 +1,37 @@
+Create a new hospital
+---
+tags:
+  - Hospital
+responses:
+  200:
+    description: OK
+    schema:
+      type: array
+      items:
+        propertiees:
+          __class__:
+            type: string
+          created_at:
+            type: string
+            description: Date and time the hospital was created
+          updated_at:
+            type: string
+            description: Date and time the hospital was last updated
+          name:
+            type: string
+            description: Name of the hospital
+          id:
+            type: string
+            description: Unique identifier for the hospital
+            example: 1
+            required: true
+          latitude:
+            type: string
+            description: Latitude of the hospital
+            example: 1.2
+            required: true
+          longitude:
+            type: string
+            description: Longitude of the hospital
+            example: 1.2
+            required: true

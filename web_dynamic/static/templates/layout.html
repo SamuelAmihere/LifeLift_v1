@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Bootstrap: css  -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/boostrap/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/boostrap/css/bootstrap.css') }}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <!-- Font awesome: css -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">  -->
+    <!-- Font awesome: js -->
+    <script src="https://kit.fontawesome.com/683316fe43.js" crossorigin="anonymous"></script>      <!-- fonts.gtatic.com -->
+    <link re="preconnect" href="https://fonts.gstatic.com">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+     
+      
+     
+    {% block header %}{% endblock %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/googlemap.css') + '?' + cache_id }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/forms.css') + '?' + cache_id }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/content.css') + '?' + cache_id }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/commons.css') + '?' + cache_id }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/header.css') + '?' + cache_id }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/footer.css') + '?' + cache_id }}">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='../static/images/favicon.ico') + '?' + cache_id }}">
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+
+<!-- leaflet css -->
+<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/> -->
+
+<!-- leaflet js -->
+ <!-- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script> -->
+ 
+<link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/home.css') + '?' + cache_id }}">
+<!-- <script src="../static/styles/js/home.js"></script> -->
+    {% block head %}
+
+    {% endblock %}
+
+    <title>Lifelift</title>
+
+  </head>
+  <body>
+    <div class="headerMenu">
+      <header class= "navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar header-local">
+    
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <a class="navbar-brand" href="#">
+            <img src="../static/images/logo.png">
+          </a>
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+
+        {% block nav %}
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                {% block homePg_nav %}
+                  <li class="nav-item"> 
+                    <a class="nav-link" href="/home">Home</a>
+                  </li>
+                {% endblock %} <!-- homePg_nav -->
+                
+                {% if current_user.user_type == 'admin' %}
+                <li class="nav-item">
+                  <a class="nav-link" href="/admin" style="color: blue;">Admin</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/#">{{ current_user.user_name }}</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/logout"> logout</a>
+                </li>
+                {% elif current_user.user_name %}
+                <li class="nav-item">
+                  <a class="nav-link" href="/#">{{ current_user.user_name }}</a>
+                </li>
+            
+                <li class="nav-item">
+                  <a class="nav-link" href="/logout"> logout</a>
+                </li>
+                  {% else %}
+                  
+
+                  {% block loginPage %}
+                <li class="nav-item">
+                  <a class="nav-link" href="/login"> login</a>
+                </li>            
+                  {% endblock %} <!-- loginPage -->
+                  {% endif %}
+                  
+                  {% if user_nav_acess %}
+                  <li class="nav-item">
+                    <a class="nav-link" href="/{{ user_nav_acess[current_user.user_type] }}"> {{ user_nav_acess[current_user.user_type] }}</a>
+                  </li>              
+                  {% endif %}
+
+
+            
+        
+                {% block navLogin %}
+                  <!-- <div class="navlogin">
+                  <form class="login-form">
+                  <input type="text" placeholder="Username">
+                  <input type="password" placeholder="Password">
+                  <button type="submit">Login</button>
+                  </form>
+                </div> -->
+                {% endblock %}
+            </ul>
+        
+              
+              
+            </div>
+          </div>
+        </nav>
+        {% endblock %} <!-- NavBlock -->
+      </header>
+    
+      
+        {% if current_user.user_type == 'admin' %}
+        <div class="sub-menu" id="hoss" data-hospitals='{{ hospitals|tojson }}' data-patients='{{ patients|tojson }}'>
+        {% else %}
+        <div class="sub-menu" id="hoss">
+        {% endif %}      
+        {% block subMenu %}
+
+        {% endblock %}
+      </div>
+    </div>
+
+  
+  <div class="contentContainer">
+    <!-- BEGIN OF CONTENT -->
+    {% block content %}
+      {% block leftPane %}
+
+      <div class="split left">
+        <div id="map"></div>
+      </div>
+      {% endblock %}
+
+      
+      <div class="split right">
+        <div class="patient-request" style="position: relative; overflow: hidden;">
+
+        </div>
+        {% block rightPane %}
+
+        {% endblock %}
+      </div>
+     {% endblock %} <!-- END content -->
+  </div><br>
+
+
+<!-- END OF CONTENT -->
+
+  <div class="footer">
+    <footer>
+      <p>2024 Lifelift</p>
+    </footer>
+  </div>
+
+    
+
+
+
+    <script src="{{ url_for('static', filename='../static/styles/js/home.js') }}">
+    </script>
+    <script>
+      function initMap() {
+        var myLatLng = {lat: 5.621937, lng: -0.176326};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Accra'
+        });
+
+        // create a DirectionsService object to use the route method and get a result for our request
+        var directionsService = new google.maps.DirectionsService();
+
+        // create a DirectionsRenderer object which we will use to display the route
+        var directionsDisplay = new google.maps.DirectionsRenderer();
+
+        // bind the DirectionsRenderer to the map
+        directionsDisplay.setMap(map);
+
+        // define calcRoute function
+        function calcRoute() {
+
+            // create request
+            var request = {
+                origin: document.getElementById("from").value,
+                destination: document.getElementById("to").value,
+                travelMode: google.maps.TravelMode.DRIVING, //WALKING, BYCYCLING, TRANSIT
+                unitSystem: google.maps.UnitSystem.IMPERIAL
+            }
+
+            // pass the request to the route method
+            directionsService.route(request, function(result, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                    // Get distance and time
+                    $("#output").html("<div class='alert-info'>From: " + document.getElementById("from").value + ".<br />To: " + document.getElementById("to").value + ".<br /> Driving distance: " + result.routes[0].legs[0].distance.text + ".<br />Duration: " + result.routes[0].legs[0].duration.text + ".</div>");
+                    // display route
+                    directionsDisplay.setDirections(result);
+                } else {
+                    // delete route from map
+                    directionsDisplay.setDirections({routes: []});
+                    // center map
+                    map.setCenter(myLatLng);
+                    // show error message
+                    $("#output").html("<div class='alert-danger'>Could not retrieve driving distance.</div>");
+                }
+            });
+        }
+
+        var hosd = document.getElementById('hoss');
+        if (hosd == null || hosd.getAttribute('data-patients') == null){
+            // set hoss
+            get_hospitals(map);
+            // create autocomplete objects for all inputs
+            emergencyRequest(map);
+        } else {
+            hosdata = JSON.parse(hosd.getAttribute('data-patients'));
+
+
+            for (var i = 0; i < hosdata.length; i++) {
+                var lat = hosdata[i].latitude;
+                var lng = hosdata[i].longitude;
+                get_requests(map, lat, lng, hosdata[i]);
+            }
+
+            get_hospitals(map);
+            
+
+            // create autocomplete objects for all inputs
+            emergencyRequest(map);
+        }
+
+    }
+
+
+    function emergencyRequest(map){
+      var req = document.getElementById('req');
+      if (req == null){
+          return;
+      }
+
+      req.addEventListener('click', function() {
+        if (document.getElementsByClassName('form-container')[0]) {
+          return;
+        }
+
+      // get hospitals: lat, lng, name
+      var hospitals = get_hospitals();
+
+      var lat = (Math.random() * (5.7 - 5.5) + 5.5).toFixed(6);
+      var lng = (Math.random() * (-0.2 - -0.4) + -0.4).toFixed(6);
+      var myLatLng = {lat: parseFloat(lat), lng: parseFloat(lng)};
+
+      var div = $('.patient-request');
+
+      //create form and add to div: emergency-form-container
+      var form = document.createElement('form');
+      form.setAttribute('method', 'post');
+      form.setAttribute('action', '/emergency_request');
+      form.setAttribute('id', 'emergency-form');
+      form.setAttribute('class', 'form-container');
+      form.innerHTML = `
+  <div class="request_container">
+    <div id="request-header">
+        <h2> Request for emergency service</h1>
+    </div>
+
+        <input type="text" id="lat" name="lat" value="${lat}" readonly>
+
+
+        <input type="text" id="lng" name="lng" value="${lng}" readonly>
+
+
+        <input type="text" id="location" name="location" value="Accra" readonly>
+
+      <hr>
+
+      <div class="col-md-6 inp">
+        <input type="text" class="form-control" id="fname" value="{{ request.form['fname'] }}" name="fname" 
+        placeholder="First Name">
+      </div>
+      <div class="col-md-6 inp">
+        <input type="text" class="form-control" id="lname" value="{{ request.form['lname'] }}" name="lname" 
+        placeholder="Last Name">
+      </div>
+      <div class="col-md-6 inp">
+        <input type="email" class="form-control" id="email" value="{{ request.form['email'] }}" name="email" 
+        placeholder="Email">
+      </div>
+      <div class="col-md-6 inp">
+        <input type="text" class="form-control" id="phone" value="{{ request.form['phone'] }}" name="phone" 
+        placeholder="Phone Number">
+      </div>
+
+      <div class="col-md-6 inp">
+        <input type="text" class="form-control" id="street" value="{{ request.form['street'] }}" name="street" 
+        placeholder="Street">
+      </div>
+      <div class="col-md-6 inp">
+        <input type="text" class="form-control" id="relative_phone" value="{{ request.form['relative_phone'] }}" name="relative_phone" 
+        placeholder="Relative Phone">
+      </div>
+
+      <div class="col-md-4">
+          <select id="incident_type" name="incident_type" class="form-select">
+              {% for o in incident_type %}
+              <option value="{{ o }}" >{{ o }}</option>
+              {% endfor %} 
+          </select>
+      </div><br>
+
+      <div class="col-md-2" style="width:15px; height: 10px;">
+              <select id="gender" name="gender" class="form-select">
+                <option>gender...</option>
+                  <option value="male" >male</option>
+                  <option value="female" >female</option>
+                  <option value="other" >other</option>
+              </select>
+      </div><br>
+
+      <div class="row-md-4">
+        <textarea id="incident_description" name="incident_description"rows="4" cols="50" placeholder="Describe here..."></textarea> 
+      </div><br>
+      <button type="submit" class="btn">Submit</button>
+      <br>
+  </div>
+  `;
+  div.append(form)
+      //remove right from contentContainer and add form
+      // document.getElementsByClassName('contentContainer')[0].removeChild(document.getElementsByClassName('right')[0]);
+      // document.getElementsByClassName('contentContainer')[0].appendChild(form);
+  
+
+      // update the existing map passed as the paraameter the caller's location
+
+      map.setCenter(myLatLng);
+      map.setZoom(14);
+      //set title
+      map.setOptions({title: 'Accra'});
+
+      var icon = {
+          url: "../static/images/emergency-call.png", // url
+          scaledSize: new google.maps.Size(50, 50), // scaled size
+          origin: new google.maps.Point(0,0), // origin
+          anchor: new google.maps.Point(0, 0) // anchor
+      };
+
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Caller',
+        icon: icon
+
+        
+      });
+      // Add a spining circle of radius 2 to the caller's location
+      var circle = new google.maps.Circle({
+        map: map,
+        radius: 200,    // 10 miles in metres
+        fillColor: '#AA0000'
+      });
+      circle.bindTo('center', marker, 'position');
+      // Add a spining circle of radius 2 to the caller's location
+      // animate the circle with constant rotation, and transparency
+      var rotate = 0;
+      window.setInterval(function() {
+        rotate += 3;
+        circle.setOptions({
+          strokeColor: '#0000FF',
+          //change the color intensity by changing the fill color
+          fillColor: (function() {
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+              color += (Math.random() * 16 | 0).toString(16);
+            }
+            return color;
+          })(Math.floor(Math.random() * 16777215).toString(16)),
+
+          fillOpacity: 0.4,
+          strokeOpacity: 0.8,
+          strokeWeight: 2,
+          animation: google.maps.Animation.BOUNCE,
+          center: myLatLng,
+          radius: 400,
+          editable: true,
+          draggable: true,
+          visible: true,
+          clickable: true,
+          zIndex: 1,
+          rotation: rotate
+        });
+      }, 1000);
+
+
+
+      //send the caller's location (lat, long and location name) to the
+      //server (/emergency_request) for ambulance to pick up
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", "/emergency_request", true); //true for asynchronous
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({lat: lat, lng: lng, location: 'Accra'}));
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+          console.log(xhr.responseText);
+        }
+        
+      }
+
+      // authenticate the request form: 'emergency-form'
+      // prevent empty fields from being submitted
+      document.getElementById('emergency-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var fname = document.getElementById('fname').value;
+        var lname = document.getElementById('lname').value;
+        var email = document.getElementById('email').value;
+        var phone = document.getElementById('phone').value;
+        var street = document.getElementById('street').value;
+        var relative_phone = document.getElementById('relative_phone').value;
+        var incident_type = document.getElementById('incident_type').value;
+        var incident_description = document.getElementById('incident_description').value;
+
+        var fields = {fname: 'fname', lname: 'lname', email: 'email', phone: 'phone', street: 'street', relative_phone: 'relative_phone', incident_type: 'incident_type', incident_description: 'incident_description'};
+        
+        // if all fields are filled, submit the form
+        if (fname != '' && lname != '' && email != '' && phone != '' && street != '' && relative_phone != '' && incident_type != '' && incident_description != '') {
+          document.getElementById('emergency-form').submit();
+        } else {
+          highlightEmptyFields(fields);
+        }
+
+      }); //END OF EVENT LISTENER: 'emergency-form'
+
+
+
+    });//END OF EVENT LISTENER: 'req'
+    
+
+    } //END OF EMERGENCY REQUEST FUNCTION
+    </script>
+
+    <script src="{{ url_for('static', filename='../static/styles/js/home.js') + '?' + cache_id }}"></script>
+    <script src="{{ url_for('static', filename='../static/styles/js/admin/requests.js') + '?' + cache_id }}"></script>
+    <script async defer
+  
+        src="https://maps.googleapis.com/maps/api/js?key={{GOOGLEMAP_API_KEY|safe }}&callback=initMap">
+    </script>
+    {% block scripts %}
+      
+    {% endblock %}
+  </body>
+</html>

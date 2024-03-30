@@ -1,0 +1,83 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	/* display: flex; */
+	flex-direction: column;
+    /* color: #bbdc7f; */
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.headerMenu {
+    height: 20%;
+    /* position: fixed; */
+    /* padding-bottom: 10px; */
+
+}
+
+.sub-menu{
+    height: 20%;
+}
+
+#req:hover {
+    background: #ca0909;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.contentContainer{
+    height: 80%;
+    /* position: fixed; */
+    /* background: yellow; */
+}
+
+.split {
+    /* position: relative; */
+    height: 600px;
+    border-width: 1px;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-top-color: coral;
+  }
+
+  /* Control the left side */
+.left {
+    padding-bottom: 0;
+    border-style: solid;
+    float: left;
+    left: 0;
+    /* position: fixed; */
+    width: 60%;
+    padding: 0 0;
+  }
+
+  .right-ambu {
+    left: 60%;
+    border-style: solid;
+    float: right;
+    right: 0;
+    position: fixed;
+    width: 40%;
+    padding: 0 0;
+  }
+
+#map {
+    height: 100%;
+    /* margin-bottom: 80px; */
+    width: 100%;
+    /* margin: 0 10px; */
+    transition: height 0.7s ease-out;
+
+}
+
+button:hover {
+    box-shadow: 0px 2px 40px 0px rgba(0,0,0,.3);
+}

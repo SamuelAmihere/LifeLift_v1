@@ -1,0 +1,27 @@
+/* .content-containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+    color: #bbdc7f;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+} */
+
+/* .content-right {
+    width: 40%;
+    float: right;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0 10px;
+    color: #bbdc7f;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: green;
+} */

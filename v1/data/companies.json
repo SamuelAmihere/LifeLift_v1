@@ -1,0 +1,21 @@
+{
+    "items": [
+        {
+        "name": "LifeLift",
+        "address": {
+            "street": "Madina",
+            "city": "Accra",
+            "state": "Greater Accra",
+            "zipcode": "233",
+            "country": "Ghana"
+        },
+        "contacts": [
+            {
+            "email": "lifelift@gmail.com",
+            "phone": "0233554481421"
+            }
+        ],
+        "status": "Active"
+        }
+    ]
+}

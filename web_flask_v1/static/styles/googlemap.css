@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:rgb(165, 169, 169);
+    font-family: "Poppins", sans-serif
+}
+
+.jumbotron {
+    background-color: #1a1a1a;
+    color: #a32121;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+.jumbotron h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.jumbotron h1,
+.jumbotron p{
+    text-align: center;
+}
+
+.jumbotron p{
+    font-size: 1em;
+}
+
+#map {
+    height: 70%;
+    width: 80%;
+}

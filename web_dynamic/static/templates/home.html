@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block header %}
+<link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/home.css') + '?' + cache_id }}">
+{% endblock %}
+
+{% block homePg_nav %}
+<li class="nav-item">
+  <a class="nav-link  active" aria-current="page" href="/home">Home</a>
+</li>
+{% endblock %}
+
+{% block subMenu %}
+  <div id="call-199">
+      <!-- <button id="req">Call 199</button> -->
+      <img id="req" src="../static/images/119.png" style="width: 35px;">
+  </div>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

@@ -1,0 +1,151 @@
+.login-Main {
+    /* position: fixed;
+    background-color: #f5f5f5; */
+    /* padding-top: 5px; */
+}
+
+/* #right-ambu.login-Main {
+    width: 30%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background: #ee9a9a;
+  
+  }
+
+  form {
+    align-items: right;
+  } */
+
+  .form-row {
+    margin-left: 0;
+  }
+
+.right-admin #login-header{
+    height: 5px; 
+    text-align: Left; 
+    padding-bottom: 25px;
+    font-size: 30px;
+    color: rgb(39, 5, 5);
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+ .signup-btn h3 {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+  .right-admin .form-control {
+    border-bottom: 1px solid #000;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+.sub1 button, .sub2 button{
+    size: 15px;
+    /* font-size: 5px; */
+  }
+
+  .emergency-form-container{
+    width: 30%; 
+    float: right;
+    direction: flex;
+    
+    /* right: 3%;  */
+    right: 5%;
+    /* background-color: rgba(15, 15, 14, 0.6);  */
+    z-index: 1;
+    border-radius: 10px; 
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+  }
+  
+  .register {
+    /* left: 50%; */
+    /* right: 15px; */
+    align-content: center;
+    align-items: center;
+    padding-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* .request_container
+  {
+
+    right: 5%;
+    background-color: rgba(10, 11, 6, 0.6); 
+    z-index: 1;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+  } */
+
+
+  #emergency-form {
+    height: 600px;
+    z-index: 1;
+    color: #810A0A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    padding: 0 5px;
+  }
+
+  #emergency-form .inp input {
+    width: 100%;
+    height: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  
+  }
+
+  #emergency-form .default-inp input {
+
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    background: #a5f386;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #emergency-form hr {
+    border: 1px solid #f1f1f1;
+    /* margin-bottom: 20px; */
+    width: 100%;
+  }
+
+#request-header {
+    font-size: 10px;
+    font-weight: 600;
+    color: #810A0A;
+    background: #e7dada;
+    align-content: center;
+    align-items: center;
+    width: 95%;
+    align-self: center;
+    border-radius: 5px;
+    /* border shadow */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  #request-header h2{
+    margin-left: 25px;
+  
+  }
+
+  #emergency-form #lat, #emergency-form #lng,
+  #emergency-form #location {
+    background: #f95454;
+  }

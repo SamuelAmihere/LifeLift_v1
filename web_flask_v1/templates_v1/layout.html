@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% block head %}
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/commons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/header.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/styles/footer.css') }}">
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <title>Lifelift</title>
+
+    {% endblock %}
+  </head>
+  <body>
+    <header>
+			<!-- <div class="logo"></div> -->
+
+      <!-- <div class="Header-wrapper"></div> -->
+      <div class="Header-wrapper">
+        <div class="contry">
+          <label for="ghana-image">
+            <img src="../static/images/ghana.png" alt="country" width="15" height="15">
+          </label>
+          <select id="greater-accra" name="country">
+            <option value="usa">Madina</option>
+            <option value="canada">Circle</option>
+            <option value="mexico">Kaneshie</option>
+            <option value="uk">Kasoa</option>
+          </select>
+        </div>
+        {% block loginNav %}
+        <div class="login-nav">
+          <a href="/login">Login</a>
+          <a href="/register">Register</a>
+        </div>
+        {% endblock %}
+
+      </div>
+      <!-- End <div class="Header-wrapper"> -->
+    </header>
+     
+    <section>
+      <!-- main container -->
+      {% block content %}
+      {% endblock %}
+    </section>
+
+    <footer>
+      <p>2024 Lifelift</p>
+    </footer>
+
+  </body>
+</html>

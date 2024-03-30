@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+
+{% block loginNav %}
+<div class="login-nav">
+    <div class="login-nav">
+        <a href="/register">Login</a>
+      </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- Create User: first_name, last_name, gender, phone_number -->
+<div class="register">
+    <h1>Register</h1>
+    <form action="{{ url_for('create_person')}}" method="post">
+        <input type="text" for="first_name" placeholder="First Name" required>
+        <input type="text" for="last_name" placeholder="Last Name" required>
+        <input type="text" for="gender" placeholder="gender" required>
+        <input type="text" for="phone_number" placeholder="Phone Number" required>
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+{% endblock %}
+```
+
+```html

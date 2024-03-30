@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.header-local {
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 80%;
+}
+
+.nav-btn-loc {
+    color: #3399FF;
+    margin-left: 3px;
+
+}
+
+
+a:active {
+    color: #ca0909;
+    text-decoration: none;
+}
+
+.sub-menu {
+    border-color: #240404;
+    height: 35px;
+    align-items: center;
+    align-content: center;
+    /* margin-bottom: 1 solid #3a3737; */
+    border-bottom: 1px solid #ee9a9a;
+    transition: height 0.66s ease-out;
+    background: #d61212;
+    padding-bottom: 0;
+    padding-top: 3px;
+    position: flex;    
+}
